@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'FH Collena';
+    src: url(./FH+Collena.eot);
+    src: url(./FH+Collena.eot?#iefix) format('embedded-opentype'),
+         url(./FH+Collena.woff2) format('woff2'),
+         url(./FH+Collena.woff) format('woff'),
+         url(./FH+Collena.ttf) format('truetype'),
+         url(./FH+Collena.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+  }
+  
+  *
+{
+    color: black;
+    text-decoration: none;  
+}
+html
+{
+    font-size: 16px;
+}
+header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../Img/w1.jpg) center/cover no-repeat;
+}
+  .text-brand
+{
+    font-size: 2rem;
+    font-family: 'FH Collena';
+}
+  
+hr.style-hr-one,.style-hr-two,.style-hr-three 
+{
+    overflow: visible; 
+    border-top:  solid rgb(28, 2, 52);
+    color: rgb(34, 4, 62);
+    text-align: center;
+    opacity: 1; 
+}
+  hr.style-hr-one:after
+{
+    content: "New Collection";
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    padding: 0 15px;
+    background:white;
+    font-family: 'B Titr';
+    font-size: 1.5rem;
+}
+  hr.style-hr-two:after 
+{
+    content: "Recent Posts";
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    padding: 0 15px;
+    background:white;
+    font-family: 'B Titr';
+    font-size: 1.5rem;
+}
+  hr.style-hr-three:after
+{
+    content: "Best Saller";
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    padding: 0 15px;
+    background:white;
+    font-family: 'B Titr';
+    font-size: 1.5rem;
+}
+  .card:hover
+{
+    box-shadow: 1px 1px  2px #e2e2e2;
+    transform: translate(0px, -10px);
+    transition: all .5s ease-in-out;
+}
+  .text-view-icon
+{
+    font-family: 'FH Collena';
+    font-size: 1.1rem;
+}
+.collection-img:hover
+{
+    opacity: 0.8;
+    box-shadow: 1px 1px  2px #e2e2e2;
+    transform: translate(10px, 5px);
+    transition: all .5s ease-in-out;
+}
+@media screen and (max-width:600px) 
+{
+    .searchbar
+    {
+      display: flex;
+      flex-wrap:nowrap ;
+      width: 230px;
+      margin-right: 10px !important;
+    }
+    .card
+    {
+      width: 350px!important;
+      margin: auto!important;
+    }
+   
+}
+  
